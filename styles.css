@@ -1,3 +1,8 @@
+:root {
+  --blue: #2e89ff;
+  --dark: #3e4042;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,3 +14,49 @@ html, body {
   color: #000;
   background-color: #fff;
 }
+
+/* utilities */
+.m0 {margin: 0;}
+.m{margin: 8px;}
+.mt { margin-top: 8px; }
+.mr{margin-right: 8px;}
+.mb{margin-bottom: 8px;}
+.ml{margin-left: 8px;}
+.my {margin-top: 8px; margin-bottom: 8px;}
+.mx{margin-left: 8px;margin-right: 8px;}
+.m-auto{margin-left: auto;margin-right: auto;}
+
+.p{padding: 8px;}
+.pt{padding-top: 8px;}
+.pr{padding-right: 8px;}
+.pb{padding-bottom: 8px;}
+.pl{padding-left: 8px;}
+.py{padding-top: 8px;padding-bottom: 8px;}
+.px{padding-left: 8px;padding-right: 8px;}
+.p0{padding: 0;}
+
+.block{display: block;}
+.flex{display: flex;}
+.grid{display: grid;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+.items-center{align-items: center;}
+.justify-center{justify-content: center;}
+.rounded{border-radius: 8px;}
+.circle{border-radius: 50%;}
+.overflow-hidden{overflow: hidden;}
+.square{aspect-ratio: 1/1;}
+.center-xy{display: flex;align-items: center;justify-content: center;}
+
+.border{border:1px solid red;}
+.bg-red{background: red;}
+.underline-0{text-decoration: none;}
+.border-0{border:none;}
+
+.text-blue{color:var(--blue);}
+.text-dark{color:var(--dark);}
+.text-white{color:#fff;}
+
+.bold{font-weight: bold;}
+.small {font-size: .85rem;}
